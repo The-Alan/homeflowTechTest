@@ -45,7 +45,7 @@ function App() {
                 return val;
               }
             })
-            .map((property) => <PropertyCard thing={HandleBookMarking} key={property.property_id} property={property} />)}
+            .map((property) => <PropertyCard bookmark={HandleBookMarking} key={property.property_id} property={property} />)}
       </div>
     </div>
   );
